@@ -1,0 +1,119 @@
+html { 
+	-webkit-font-smoothing: antialiased; 
+}
+body{
+    background-color: #3F4551;
+    font-family: roboto;
+    color: #666B77;
+}
+    @font-face{
+    font-family: roboto;
+    src: local("Roboto-Light"),
+        url(Roboto-Light.ttf);
+}
+a{
+        text-decoration: none;
+}
+.header h1{
+    text-align: center;
+}
+#arrows{
+    text-align: center;
+    margin-top: 30px;
+}
+/*      index.html buttons      */
+.button-big{
+    color: #1D2128;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #40B689;
+    margin-top: 50px;
+    width: 250px;
+    height: 100px;
+    display: block;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#indoors .icon{
+    background: url(images/indoors.png);
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+#outdoors .icon{
+    background: url(images/outdoors.png);
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+.button-big h1{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+/*      money choice buttons        */
+.button-small{
+    color: #1D2128;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #40B689;
+    margin-top: 30px;
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#money-0 .icon {
+    background:url(images/money-0.png);
+    width: 125px;
+    height: 125px;
+    float: left;
+}
+#money-1 .icon {
+    background:url(images/money-1.png);
+    width: 125px;
+    height: 125px;
+    float: left;
+}#money-2 .icon {
+    background:url(images/money-2.png);
+    width: 125px;
+    height: 125px;
+    float: left;
+}#money-3 .icon {
+    background:url(images/money-3.png);
+    width: 125px;
+    height: 125px;
+    float: left;
+}
+.block{
+    text-align: center;
+}
+
+/*      results page styles     */
+.results{
+    color: #1D2128;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #40B689;
+    margin-top: 30px;
+    width: 250px;
+    height: 100px;
+    display: block;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.results{
+    text-decoration: none;
+    color: #1D2128;
+    text-align: center;
+}
